@@ -1,6 +1,7 @@
 .App {
   min-height: 100vh;
   background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  list-style-type: none;
 }
 
 .search-form {
@@ -14,6 +15,7 @@
   width: 50%;
   border: none;
   padding: 10px;
+
 }
 
 .search-button{
@@ -22,10 +24,18 @@
   padding: 10px 20px;
   color: white;
 
+
 }
 
 .recipes{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.image{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px
+
 }
